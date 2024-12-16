@@ -121,28 +121,28 @@
 
 
     // EQUALIZER TOGGLE
-    var source = "audio/audio.mp3";
-    var audio = new Audio(); // use the constructor in JavaScript, just easier that way
-    audio.addEventListener("load", function () {
-      audio.play();
-    }, true);
-    audio.src = source;
-    audio.autoplay = true;
-    audio.loop = true;
-    audio.volume = 0.2;
-
-    $('.equalizer').click();
-    var playing = true;
-    $('.equalizer').click(function () {
-      if (playing == false) {
-        audio.play();
-        playing = true;
-
-      } else {
-        audio.pause();
-        playing = false;
-      }
-    });
+    // var source = "audio/audio.mp3";
+    // var audio = new Audio(); // use the constructor in JavaScript, just easier that way
+    // audio.addEventListener("load", function () {
+    //   audio.play();
+    // }, true);
+    // audio.src = source;
+    // audio.autoplay = true;
+    // audio.loop = true;
+    // audio.volume = 0.2;
+    //
+    // $('.equalizer').click();
+    // var playing = true;
+    // $('.equalizer').click(function () {
+    //   if (playing == false) {
+    //     audio.play();
+    //     playing = true;
+    //
+    //   } else {
+    //     audio.pause();
+    //     playing = false;
+    //   }
+    // });
 
 
     // EQUALIZER
