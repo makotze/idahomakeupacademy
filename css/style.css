@@ -1368,6 +1368,12 @@ textarea {
 .intro h4 {
   font-weight: 600;
 }
+.intro b.tuition-price {
+  display: block;
+  float: none;
+  font-size: clamp(48px, 8vw, 80px);
+  margin: 0;
+}
 .intro p {
   font-size: 20px;
   font-weight: 300;
